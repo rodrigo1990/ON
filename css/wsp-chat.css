@@ -1,0 +1,244 @@
+ .chat-switch{
+  	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: -1px;
+    right: 0;
+    float: right;
+    width: 300px;
+    background-color: #0c376b;
+    border: 1px solid grey;
+    z-index: 1;
+    width: 174px;
+  }
+
+  .interfaceForm{
+	    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    text-align: center;
+    color: grey;
+    position: fixed;
+    bottom: -1px;
+    right: 3%;
+    float: left;
+    width: 333px;
+    background-color: white;
+   
+    box-shadow: 0px 0px 12px #403e3e;
+
+}
+
+.interfaceFormBtn, .interfaceForm{
+    z-index: 5000; 
+}
+.interfaceFormBody{
+		padding:15px;
+
+}
+
+
+.interfaceForm form{
+    padding-bottom: 53%;
+}
+
+.interfaceFormBody h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+        color: #727272;
+}
+
+
+.interfaceFormBody .title{
+    margin: 16px 0;
+
+}
+
+
+.interfaceFormBody a h3{
+    color: white;
+}
+
+.interfaceForm textarea{
+	width: 99%;
+	height:150px;
+}
+
+.interfaceForm input{
+	width: 99%;
+    height: 57px;
+}
+
+.interfaceForm input#nombre-wsp{
+	background: url(../img/icon-input-name.png) no-repeat scroll 7px 17px;
+    padding-left: 30px;
+}
+
+.interfaceForm input#telefono-wsp{
+	background: url(../img/icon-input-phone.png) no-repeat scroll 7px 17px;
+    padding-left: 30px;
+}
+
+
+.interfaceForm input#email-wsp{
+    background: url(../img/icon-input-email.png) no-repeat scroll 7px 20px;
+    padding-left: 30px;
+}
+
+
+.interfaceFormHeader{
+	color:white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #00c9a3;
+    padding:5px;
+}
+
+.interfaceFormHeader img{
+	width: 128px;
+	height: 40px;
+    margin-left: 24px !important;
+}
+
+.interfaceFormBtn{
+	border-radius: 15px;
+	text-align: center;
+	color:white;
+	position:fixed;
+	bottom:10px;
+	right: 15px;
+	float:right;
+	background-color: #00c9a3;
+    width: 209px;
+    padding: 1%;
+        box-shadow: 0px 4px 20px #403e3e;
+}
+
+.interfaceFormBtn h3{
+		font-weight: bolder;
+		color:white;
+
+}
+
+
+.btn-primary {
+        color: #ffffff;
+    background-color: #00ff6a;
+    border: unset !important;
+    font-weight: bolder;
+    width: 80%;
+    line-height: 2px;
+    padding: 13px;
+    /* vertical-align: middle; */
+
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #25d366;
+    border:unset !important;
+}
+
+
+.error{
+	display:none;
+	float:left;
+	color:#00ff6a;
+    padding: 9px;
+}
+
+
+
+
+/* Preloader */
+
+#preloader {
+       position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 10043;
+    height: auto;
+    opacity: 1;
+    color: #1a9cd6;
+    text-align: center;
+    /* display: none; */
+
+}
+
+#preloader .confirm-container{
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25%;
+    height: 100px;
+}
+
+#preloader img{
+        width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#preloader .exito{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin: auto;
+    right: 0;
+    height: 400px;
+}
+
+#status {
+ position: absolute;
+    left: 0;
+    top: -24%;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    /* margin-right: auto; */
+    /* margin-top: 16%; */
+}
+
+.spinner-sm {
+      border: 3px solid grey;
+        border-top: 3px solid #25d366;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+@media only screen and (max-width: 767px) {
+.interfaceFormBtn {
+
+    width: 35%;
+
+}
+
+.interfaceForm {
+    left: 0;
+    right: 0;
+    float: unset;
+    margin: auto;
+
+
+}
+
